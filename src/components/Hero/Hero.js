@@ -12,7 +12,7 @@ const Hero = () => (
         My name is Eric Soon
       </SectionTitle>
       <SectionText>
-      Your portfolio is your resume and your business card. Learn how to build a responsive personal development portfolio from scratch and make your first impression count. We'll be using React and Next JS.
+      I'm a self-taught developer who specialized in developing front-end software development.
       </SectionText>
       <Button onClick ={() => window.location = "https://github.com/ericsoon"}>Learn More</Button>
     </LeftSection>

@@ -24,20 +24,24 @@ const Technologies = () =>  (
             Front-End
           </ListTitle>
           <ListParagraph>
-            <li><DiReact /> React</li>
-            <li><SiTailwindcss /> Tailwind</li>
+            <ol>
+              <li><DiReact /> React</li>
+              <li><SiTailwindcss /> Tailwind</li>
+            </ol>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size = "3rem" />
+      <DiFirebase size = "3rem" />
         <ListContainer>
           <ListTitle>
             Back-End
           </ListTitle>
           <ListParagraph>
-            <li><FaNodeJs /> Node</li>
-            <li><DiMongodb /> MonggoDB</li>
+            <ol>
+              <li><FaNodeJs /> Node</li>
+              <li><DiMongodb /> MonggoDB</li>
+            </ol>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -48,7 +52,9 @@ const Technologies = () =>  (
             UI/UX
           </ListTitle>
           <ListParagraph>
-            <li><FiFigma /> Figma</li>
+            <ol>
+              <li><FiFigma /> Figma</li>
+            </ol>
           </ListParagraph>
         </ListContainer>
       </ListItem>
