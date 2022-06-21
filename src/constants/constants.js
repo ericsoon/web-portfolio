@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Coming Soon',
-    description: "Coming Soon",
-      image: '/images/coming-soon.png',
-      tags: ['Coming Soon'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Ecommerce',
+    description: "While building it I learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, e-commerce applications are impressive.",
+      image: '/images/ecommerce.png',
+      tags: ['Next.js', 'Stripe', 'Sanity'],
+    source: 'https://ecommerce-three-phi.vercel.app/',
+    visit: 'https://github.com/ericsoon/ecommerce',
     id: 0,
   },
   {
