@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiMongodb } from 'react-icons/di';
-import {SiTailwindcss} from 'react-icons/si'
+import { SiTailwindcss } from 'react-icons/si'
 import {FiFigma} from 'react-icons/fi'
 import {FaNodeJs} from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -18,14 +18,14 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size = "3rem" />
+        <DiReact size = "3rem" />
         <ListContainer>
           <ListTitle>
             Front-End
           </ListTitle>
           <ListParagraph>
             <ol>
-              <li><DiReact /> React</li>
+              <li><DiReact /> Next.js</li>
               <li><SiTailwindcss /> Tailwind</li>
             </ol>
           </ListParagraph>
