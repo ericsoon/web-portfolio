@@ -12,7 +12,7 @@ const Hero = () => (
         My name is Eric Soon
       </SectionTitle>
       <SectionText>
-      I'm a self-taught developer who specialized in developing front-end software development.
+      I'm a self-taught developer who specializes in developing front-end software development.
       </SectionText>
       <Button onClick ={() => window.location = "https://github.com/ericsoon"}>Learn More</Button>
     </LeftSection>

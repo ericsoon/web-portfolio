@@ -46,8 +46,7 @@ const Timeline = () => {
     <Section id = "about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        
-I am a final year student. I started studying web development last summer. I love learning new technology because it's challenging. My biggest milestones are when I encounter errors or my program doesn't run. But that's what makes programming fun, because I have to try to think and find a solution.
+        I am a final year student. I started studying web development last summer. I love learning about new technology because it's challenging. My biggest milestones are when I encounter errors or my program doesn't run. But that's what makes programming fun, because I have to try to think and find a solution.
       </SectionText>
       <CarouselContainer ref ={carouselRef} onScroll= {handleScroll}>
         <>
