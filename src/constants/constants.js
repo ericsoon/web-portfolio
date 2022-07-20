@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Movie21',
+    description: "A comprehensive movie application where users can discover titles within specific categories and genres, save them to watchlists, view trailers for upcoming films, and access information about the cast, synopsis, and more.",
+      image: '/images/movie21.png',
+      tags: ['React', 'Material UI', 'The Movie DB', 'Redux'],
+    source: 'https://movie21-ericsoon.vercel.app/',
+    visit: 'https://github.com/ericsoon/movie21 ',
+    id: 0,
+  },
+  {
     title: 'Ecommerce',
     description: "While building it I learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, e-commerce applications are impressive.",
       image: '/images/ecommerce.png',
@@ -9,21 +18,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Coming Soon',
-    description: "Coming Soon",
-      image: '/images/coming-soon.png',
-      tags: ['Coming Soon'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'Coming Soon',
-    description: "Coming Soon",
-      image: '/images/coming-soon.png',
-      tags: ['Coming Soon'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Gold Gym',
+    description: "Gold Gym has the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, pull related videos from youtube, display similar exercises, and much more, ",
+      image: '/images/gold-gym.png',
+      tags: ['React', 'Material UI', 'Rapid API'],
+    source: 'https://github.com/ericsoon/gold-gym',
+    visit: 'https://world-gym-ericsoon.vercel.app/',
     id: 0,
   },
   {
