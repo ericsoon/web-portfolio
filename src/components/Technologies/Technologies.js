@@ -28,7 +28,7 @@ const Technologies = () =>  (
               <li><SiNextDotJs /> Next.js</li>
               <li><SiStyledComponents /> Styled Components</li>
               <li><SiTailwindcss /> Tailwind</li>
-              <li><SiMaterialUi /> MUI</li> 
+              <li><SiMaterialUi /> Material UI</li> 
             </ol>
           </ListParagraph>
         </ListContainer>
@@ -43,6 +43,7 @@ const Technologies = () =>  (
             <ol>
               <li><FaNodeJs /> Node</li>
               <li><DiMongodb /> MonggoDB</li>
+              <li>Express JS</li>
             </ol>
           </ListParagraph>
         </ListContainer>
