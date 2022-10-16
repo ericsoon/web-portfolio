@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id = "about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a final year student. I started studying web development last summer. I love learning about new technology because it's challenging. My biggest milestones are when I encounter errors or my program doesn't run. But that's what makes programming fun, because I have to try to think and find a solution.
+       I started learning web development in high school.
+       I really began to develop a passion for coding and web development in late 2021.
+       My biggest milestone is when I encounter errors or my program doesn't run.
       </SectionText>
       <CarouselContainer ref ={carouselRef} onScroll= {handleScroll}>
         <>
@@ -112,7 +114,7 @@ const Timeline = () => {
         </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      {/* <SectionDivider /> */}
     </Section>
   );
 };

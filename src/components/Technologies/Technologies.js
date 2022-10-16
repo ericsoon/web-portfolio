@@ -1,6 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiMongodb } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si'
+import { SiNextDotJs, SiTailwindcss, SiMaterialUi,SiStyledComponents } from 'react-icons/si'
 import {FiFigma} from 'react-icons/fi'
 import {FaNodeJs} from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -25,8 +25,10 @@ const Technologies = () =>  (
           </ListTitle>
           <ListParagraph>
             <ol>
-              <li><DiReact /> Next.js</li>
+              <li><SiNextDotJs /> Next.js</li>
+              <li><SiStyledComponents /> Styled Components</li>
               <li><SiTailwindcss /> Tailwind</li>
+              <li><SiMaterialUi /> MUI</li> 
             </ol>
           </ListParagraph>
         </ListContainer>
