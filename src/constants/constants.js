@@ -38,8 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started learning HTML CSS and JavaScript', },
-  { year: 2017, text: 'Made a full stack project with PHP and Mysql as the backend', },
-  { year: 2020, text: 'Started to learn libraries and frameworks', },
-  { year: 2022, text: 'Shared my projects to GitHub', },
+  { year: 2016, text: 'Started learning HTML, CSS and JavaScript in high school.', },
+  { year: 2017, text: 'Made a full stack project with PHP and Mysql as the backend.', },
+  { year: 2020, text: 'Learnt data structures and algorithms in college.', },
+  { year: 2021, text: 'Started to learn libraries and frameworks.', },
+  { year: 2022, text: 'Shared my projects to GitHub.', },
 ];
